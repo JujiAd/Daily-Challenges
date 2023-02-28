@@ -15,5 +15,6 @@ for num in A:
     try:
         index = B.index(num)
         print(f'Match found at: {index}')
+        break
     except:
         pass

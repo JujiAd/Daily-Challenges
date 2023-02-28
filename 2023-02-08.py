@@ -21,7 +21,7 @@ print(nums)
 
 #nums = [10, 2, 7, 8, 18, 13, 15, 11, 5, 3]
 #Solve that shit
-k = 2
+k = 10
 flag = False
 
 for num1 in nums:

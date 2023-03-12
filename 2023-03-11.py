@@ -19,6 +19,7 @@ If, after |V| - 1 iterations of this, we can still find a smaller path, then the
 """
 
 from math import log
+graph = []
 
 def arbitrage(table):
     transformed_graph = [[-log(edge) for edge in row] for row in graph]
